@@ -1,8 +1,8 @@
 # Micro Posts
 
-This is a sample project which could be used as a starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It is created using vanila Javascript (no use of React/Angular/Vue).
+This is a sample project which could be used as a starter project to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It is created using vanilla Javascript (no use of React, Angular, and Vue).
 
-It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
+It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with async and await as it uses the Babel polyfill.
 
 It also provides Json Server as an API server. You can send get/post/put/delete requests to this server and it will update the file: api/db.json. You can then fetch all the posts and display them on the page.
 
