@@ -1,9 +1,14 @@
-# Babel Webpack Starter
+# Micro Posts
 
-A starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
+This is a sample project which could be used as a starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It is created using vanila Javascript (no use of React/Angular/Vue).
+
+It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
+
+It also provides Json Server as an API server. You can send get/post/put/delete requests to this server and it will update the file: api/db.json. You can then fetch all the posts and display them on the page.
 
 ### Version
-1.1.0
+
+1.0.0
 
 ## Usage
 
@@ -12,29 +17,38 @@ A starter pack to build JavaScript applications using standards from ES2015, ES2
 Install the dependencies
 
 ```sh
-$ npm install
+$ yarn install
 ```
 
 ### Serve
-To serve in the browser  - Runs webpack-dev-server
+
+To serve in the browser - Runs webpack-dev-server
 
 ```sh
-$ npm start
+$ yarn start
 ```
 
 ### Build
+
 Compile and build
 
 ```sh
-$ npm run build
+$ yarn build
+```
+
+### Run json-server
+
+You can run the json server which provides a rest api (http get/post/put/delete) for your posts
+
+```sh
+$ yarn json:server
 ```
 
 ## More Info
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Habiburrahman Dehzad
 
 ### License
 
